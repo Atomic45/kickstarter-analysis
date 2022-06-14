@@ -17,8 +17,7 @@ After the conversions and functions were created, a pivot table was created to f
 ![image](https://user-images.githubusercontent.com/30300621/173476912-9472a114-8c95-40de-8f6a-66c0001e2604.png)
 
 This table was used to create the visualization using a line graph to show 
-"D:\0_UT_Austin\Module 1\Challenge 1\Theater_Outcomes_vs_Launch.png"
-!(image)(D:\0_UT_Austin\Module 1\Challenge 1) 
+/assets/images/Theater_Outcomes_vs_Launch.png 
 
 
 The next item was to figure out 
