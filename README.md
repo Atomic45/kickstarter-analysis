@@ -13,11 +13,11 @@ The Kickstarter analysis was created by using an Excel report with detailed info
 - Separating the Category by its subcategory with the "Text to Column" tab in excel. This allowed for more options to use for the analysis. 
 - 
 After the conversions and functions were created, a pivot table was created to filter the necessary items needed for this analysis. This analysis required the Category "theater" to be filtered. Also, the "Year" column was filtered to show each month only. The outcomes were, as mentioned, successful, failed, and canceled. 
-
 ![image](https://user-images.githubusercontent.com/30300621/173476912-9472a114-8c95-40de-8f6a-66c0001e2604.png)
 
-This table was used to create the visualization using a line graph to show 
-/assets/images/Theater_Outcomes_vs_Launch.png 
+## Analysis for Theater Outcomes Based on Launch Date
+The graph bel table was used to create the visualization using a line graph. The line graph gives us an overview of the average percentage for each outcome for each month. 
+![image](https://user-images.githubusercontent.com/30300621/173481411-b942a09d-dbd5-406a-92fb-c44412630648.png)
 
-
+The line graph shows that the most Successful outcomes happened in the month of May. The least Successful was in December. 
 The next item was to figure out 
