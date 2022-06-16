@@ -11,13 +11,15 @@ The Kickstarter analysis was created by using an Excel report with detailed info
 - retrieving the Year from the converted date. =YEAR(K2)
 - Fixing errors for fields that contained 0 by using the =IFERROR function =IFERROR(ROUND(E2/M2,2),0).
 - Separating the Category by its subcategory with the "Text to Column" tab in excel. This allowed for more options to use for the analysis. 
-- 
+
 After the conversions and functions were created, a pivot table was created to filter the necessary items needed for this analysis. This analysis required the Category "theater" to be filtered. Also, the "Year" column was filtered to show each month only. The outcomes were, as mentioned, successful, failed, and canceled. 
 ![image](https://user-images.githubusercontent.com/30300621/173476912-9472a114-8c95-40de-8f6a-66c0001e2604.png)
 
 ## Analysis for Theater Outcomes Based on Launch Date
-The graph bel table was used to create the visualization using a line graph. The line graph gives us an overview of the average percentage for each outcome for each month. 
+The pivot table allows for the creation of a line graph that helps identify trends and an overview of the average percentage of each outcome for each month. The visualization of the line graph is shown below.  
 ![image](https://user-images.githubusercontent.com/30300621/173481411-b942a09d-dbd5-406a-92fb-c44412630648.png)
 
-The line graph shows that the most Successful outcomes happened in the month of May. The least Successful was in December. 
-The next item was to figure out 
+The line graph shows that the highest number of successful outcomes happened in the month of May. The least successful was in December. Successful outcomes decreased by 65% from October to December. This shows that successful theater events were not popular during the winter season and that could be due to holiday shopping. The high increase from March to May, another two month period, shows a 55% increase. This is during the spring time, so a conclusion can mean weather plays a factor for the theater outcomes. 
+
+## Analysis for Outcomes Based on Goals
+The next item was to figure out the Outcome based on Goals. In the chart below, no pivot table was created. Filtering and the =COUNTIF function were used to create ranges according to the Goal amounts. 
