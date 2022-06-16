@@ -22,4 +22,26 @@ The pivot table allows for the creation of a line graph that helps identify tren
 The line graph shows that the highest number of successful outcomes happened in the month of May. The least successful was in December. Successful outcomes decreased by 65% from October to December. This shows that successful theater events were not popular during the winter season and that could be due to holiday shopping. The high increase from March to May, another two month period, shows a 55% increase. This is during the spring time, so a conclusion can mean weather plays a factor for the theater outcomes. 
 
 ## Analysis for Outcomes Based on Goals
-The next item was to figure out the Outcome based on Goals. In the chart below, no pivot table was created. Filtering and the =COUNTIF function were used to create ranges according to the Goal amounts. 
+Next, in the table below, a pivot table was not created. Instead separate ranges of the goal amounts were created by filtering and using the =COUNTIF function. A count of the different outcomes was also used along with the percentage amounts included for each range and outcome. The data was filtered by the Theater Category and the Plays Subcategory. The percentage function used was =(B2/E2), but some fields included zeroes. This caused for an expansion of the function to include the IFERROR function. Here is what was used: =IFERROR(B2/E2,0), which places a 0 for any calculation that caused an error. 
+
+![image](https://user-images.githubusercontent.com/30300621/173983793-2078e13c-df7c-4bde-937f-abe65462ace9.png)
+
+This also shows us that none of the theater plays were canceled, which allows for a 50/50 chance a theater play will be successful or fail. The line graph created from the table shows a negative correlation between the Percentage Successful and the Percentage Failed. There are no canceled outcomes, again because none of the theater plays were canceled. 
+
+![image](https://user-images.githubusercontent.com/30300621/173985940-1bc90502-0a9c-4cfe-808b-62c85c733c0c.png)
+
+## Summary
+It is difficult to give an accurate conclusion due to the data is limited. For example, the Outcomes based on Launch Date does not include other factors that may have given accurate reason why there were cancelations or why a theater outcome failed. Was it due to weather? Was it due to an incident with a theater? Was it the lack of popularity or lack of marketing? We can assume the seasons played a role if that is sufficient. 
+
+For the Outcomes based on goal section, it is also difficult to assume the negative correlation can be based on the 50/50 chance. We do not have demographics, location or status to provide a more accurate analysis. If we used demographics, we can determine the popularity of some theater plays in certain areas or lack of popularity. 
+
+
+
+
+
+
+
+
+
+
+
